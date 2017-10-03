@@ -1,4 +1,4 @@
-# Spring boot docker example
+# Spring Boot Docker example
 Example of the Spring Boot + Docker 
 
 # Prerequisites
@@ -9,7 +9,7 @@ Example of the Spring Boot + Docker
 # Build and create Docker image
 - mvn clean package
 
-# Run with docker
+# Run with Docker
 - docker run -e "SPRING_PROFILES_ACTIVE=dev" -p 8080:8080 -t springio/spring-boot.app
 
 # access with browser
