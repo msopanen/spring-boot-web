@@ -14,3 +14,8 @@ Example of the Spring Boot + Docker
 
 # access with browser
 - http://localhost:8080/
+
+# Kubernetes
+- deploy : kubectl create -f spring-boot.app.yaml
+- get URL : sudo minikube service spring-boot-app --url
+- delete : kubectl delete deployment,svc spring-boot-app
